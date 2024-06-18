@@ -17,6 +17,18 @@ fi
    if [ $? -ne 0 ]
    then 
        echo " installation of mysql is error"
+       exit 1
     else 
        echo "installtion is success"
     fi
+
+    yum install postfix -y
+
+    if [ $? -ne 0 ]
+   then 
+       echo " installation of mysql is error"
+       exit 1
+    else 
+       echo "installtion is success"
+    fi
+
