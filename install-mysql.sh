@@ -4,9 +4,9 @@ USERID=$(id -u)
 
 if [$USERID -ne 0 ]
 then
-    echo "Please run this script"
-else 
-    echo " do not run this script"
+    echo "Please do  run this script"
+# else 
+#     echo "  run this script"
 
 fi
  
