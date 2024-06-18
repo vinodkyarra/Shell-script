@@ -6,3 +6,5 @@
 
  # i am entering the numbers through command line
  sum=$((Number1+Number2))
+
+ echo" addtion of numbers:$sum"
