@@ -6,6 +6,7 @@ do
  
 done
 
+echo "$@"
 echo "script name:$0"
 echo "$#"
 echo "Everything is installed successfully "
