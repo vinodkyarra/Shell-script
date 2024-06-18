@@ -5,10 +5,10 @@ USERID=$(id -u)
 VALIDATE(){
 if [ $1 -ne 0 ]
    then 
-       echo $2 "error"
+       echo  "error"
        exit 1
     else 
-       echo $2 "installtion is success"
+       echo  "installtion is success"
     fi
 }
 
