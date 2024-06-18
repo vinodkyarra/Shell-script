@@ -5,3 +5,5 @@ do
  yum install $i -y
 done
 
+echo "Everything is installed successfully "
+
