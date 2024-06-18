@@ -11,7 +11,7 @@ then
 
 fi
  
-  yum install mysqlll -y
+  yum install mysql -y
 
 
    if [ $? -ne 0 ]
