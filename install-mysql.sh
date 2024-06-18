@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [$USERID -eq 0 ]
+if [ $USERID -eq 0 ]
 then
     echo "Please run this script with root privilages"
     exit 1
@@ -11,4 +11,4 @@ then
 
 fi
  
-  yum install git -y
+  yum install mysql -y
