@@ -10,6 +10,6 @@ echo "$@"
 echo "script name:$0"
 echo "varibale 1:$1"
 echo "$#"
-echo "Everything is installed successfully "
+echo "Everything is installed successfully  finally"
 
 
